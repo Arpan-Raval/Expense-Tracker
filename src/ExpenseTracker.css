@@ -1,0 +1,91 @@
+/* ExpenseTracker.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #ff4b5c;
+  }
+  
+  .balance {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 80%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-income {
+    background: #28a745;
+  }
+  
+  .add-expense {
+    background: #dc3545;
+  }
+  
+  .transactions {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .transactions li {
+    background: #f8f9fa;
+    padding: 10px;
+    margin: 5px 0;
+    border-left: 5px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .transactions .income {
+    border-left-color: #28a745;
+    color: #28a745;
+  }
+  
+  .transactions .expense {
+    border-left-color: #dc3545;
+    color: #dc3545;
+  }
+  
+  .delete-btn {
+    background: #ff4b5c;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
