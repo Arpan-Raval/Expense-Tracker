@@ -45,6 +45,7 @@ const ExpenseTracker = () => {
 
   return (
     <div className="container">
+    <div className="main">
       <h2>💰 Expense Tracker</h2>
       <h3 className="balance">Balance: ₹{getBalance()}</h3>
 
@@ -69,6 +70,7 @@ const ExpenseTracker = () => {
       </button>
 
       <h3>📜 Transaction History</h3>
+    </div>
       <ul className="transactions">
         {transactions.map((transaction) => (
           <li
