@@ -17,7 +17,11 @@ body {
     width: 350px;
     text-align: center;
   }
-  
+
+.main{
+    position:sticky;
+    top:0;
+}
   h2 {
     color: #ff4b5c;
   }
